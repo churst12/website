@@ -1,35 +1,29 @@
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
+    <div class="footer-shadow">
+      <div class="bodywrap">
+    <div class="row">
+      <div class="col-2 my-5">
+        <img class="mx-auto" src="/assets/prof-pic.png" style="width: 70px; height:70px;">
+        <i > &nbsp;Collin Hurst</i>
       </div>
 
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
+      <div class="col-6 my-5"">
+        <p><i>built with Jekyll, Bootstrap, Github Pages</i></p>
       </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
+      <div class="col-4 my-5"">
+        <div class="my-col-4"><a href="https://www.github.com/churst12">Github</a></div>
+        <div class="my-col-4"><a href="https://www.linkedin.com/in/collinhurst/">LinkedIn</a></div>
+        <div class="my-col-4"><a href="https://www.instagram.com/collinhhurst/?hl=en">Instagram</a></div>
       </div>
     </div>
-
+    </div>
   </div>
+<script src="{{'/node_modules/jquery/dist/jquery.min.js' | prepend: site.baseurl}}"></script>
+  <script src="{{'/node_modules/popper.js/dist/umd/popper.min.js' | prepend: site.baseurl}}"></script>
+  <script src="{{'/node_modules/bootstrap/dist/js/bootstrap.min.js' | prepend: site.baseurl}}"></script>
+  <!--jQuery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
 
 </footer>

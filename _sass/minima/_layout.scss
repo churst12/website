@@ -2,8 +2,6 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
@@ -24,8 +22,19 @@
   }
 }
 
+
+.navbar-nav > li a{
+  font-size: 20px;
+  color: black; 
+  border-top: 3px solid black;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-right: 15px;
+}
+
+
 .site-nav {
-  float: right;
+  display:inline-block;
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
@@ -101,13 +110,20 @@
 }
 
 
-
 /**
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
-  padding: $spacing-unit 0;
+  background-color: white;
+  padding-right: 0px;
+  padding-left: 0px;
+  
+}
+.footer-shadow {
+  background-color: white;
+  width: 100vw;
+  box-shadow: 
+        inset 0px 40px 30px -20px #CCC,
 }
 
 .footer-heading {
@@ -176,7 +192,7 @@
  * Page content
  */
 .page-content {
-  padding: $spacing-unit 0;
+  margin-top: 50px;
   flex: 1;
 }
 
