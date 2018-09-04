@@ -129,6 +129,7 @@
   margin-left: 0;
 }
 
+
 .footer-col-wrapper {
   @include relative-font-size(0.9375);
   color: $grey-color;
@@ -139,6 +140,7 @@
 .footer-col {
   float: left;
   margin-bottom: $spacing-unit / 2;
+  margin-top: $spacing-unit*1;
   padding-left: $spacing-unit / 2;
 }
 
@@ -177,6 +179,12 @@
     width:         calc(100% - (#{$spacing-unit} / 2));
   }
 }
+/*flex*/
+.flex-vert {
+       display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 
 
@@ -189,7 +197,11 @@
 }
 
 .page-heading {
-  @include relative-font-size(2);
+  text-align: center;
+  @include relative-font-size(4);
+}
+.page-description {
+  text-align: center;
 }
 
 .post-list-heading {
@@ -206,8 +218,9 @@
 }
 
 .post-meta {
-  font-size: $small-font-size;
-  color: $grey-color;
+  @include relative-font-size(1.5);
+  text-align: right;
+  color: black;
 }
 
 .post-link {
@@ -219,7 +232,7 @@
 /* homepage*/
 .homepage {
     background:white;
-     background-image: url("background.jpg");
+     background-image: url("background.png");
 
     /* Full height */
     height: 100vh;
@@ -230,6 +243,9 @@
     background-size: cover;
     margin:0;
     padding:0;
+}
+.home-header {
+  margin-top: $spacing-unit*10 ;
 }
 .gradient {
     position:absolute;
