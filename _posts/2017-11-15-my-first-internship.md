@@ -15,9 +15,7 @@ permalink: blog/11-15-2017
 
  Now there is a large difference between working on and implementing a feature for your own school project, and creating a testing infastructure that is the one of the only things standing in the way of a system-wide failure. The large jump between the school exp. and the work exp. in computer science was becoming all the more apparent. In the field your work matters and makes an impact on the product, and the product is the baby of all the workers at the company. This fact is increased tenfold with early stage startups. So naturally, when learning and implementing the [Selenium][selenium] testing framework there was a feeling of unease.
 
- One thing that education helps with is the ability to teach you how to learn. I found out early on that once I knew what my task was, learning and implementing something was not as hard as it might have seemed. So after a week or two, I was able to contruct a basic testing framework for the homepage. And after another week, I was done writing tests to run a typical user login and sign up flow. At the end of the internship, it was safe to say that I was knowledgable about the main processes of the Selenium testing framework, and unit testing in general. It turns out that hours and hours of studying mitochondria wasn't useless after all. 
-
-
+ One thing that education helps with is the ability to teach you how to learn. I found out early on that once I knew what my task was, learning and implementing something was not as hard as it might have seemed. So after a week or two, I was able to contruct a basic testing framework for the homepage. And after another week, I was done writing tests to run a typical user login and sign up flow. At the end of the internship, it was safe to say that I was knowledgable about the main processes of the Selenium testing framework, and unit testing in general. This brought me to the realization that nothing is out of my technical reach as long as I put my mind to it. It turns out that hours and hours of studying mitochondria wasn't useless after all. 
 
 
 [p&p]: https://www.plugandplaytechcenter.com/
