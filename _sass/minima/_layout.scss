@@ -21,7 +21,8 @@
   border-top: 3px solid black;
   padding-bottom: 0;
   margin-bottom: 0;
-  margin-right: 15px;
+  margin-left: $spacing-unit / 2;
+  margin-right: $spacing-unit / 2 ;
 }
 
 
@@ -109,13 +110,30 @@
   background-color: white;
   padding-right: 0px;
   padding-left: 0px;
+
+
   
+}
+.footer-background {
+  background:white;
+     background-image: url("background/trees.jpg");
+
+    /* Full height */
+    
+
+
+ 
 }
 .footer-shadow {
   background-color: white;
   width: 100vw;
   box-shadow: 
-        inset 0px 40px 30px -20px #CCC,
+        inset 0px 40px 30px -20px #CCC;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
 }
 
 .footer-heading {
@@ -194,6 +212,7 @@
 .page-content {
   flex: 1;
   width:100%;
+
 }
 
 .page-heading {
@@ -236,6 +255,8 @@
 
     /* Full height */
     height: 100vh;
+
+
     /* Center and scale the image nicely */
     background-position: left;
     background-repeat: no-repeat;
@@ -247,6 +268,8 @@
 .home-header {
   margin-left: auto;
   margin-right: auto;
+  margin-top:20%;
+  width:50%;
   display: flex;
     flex-direction: column;
     justify-content: center;
