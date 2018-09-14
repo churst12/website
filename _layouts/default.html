@@ -4,6 +4,7 @@
   {%- include head.html -%}
 
   <body>
+      <div class="wrap">
       {%- unless page.headerExclude -%}
         {%- include header.html -%}
       {%- endunless-%}
@@ -12,12 +13,13 @@
         <div class="wrapper">
           {{ content }}
         </div>
-        {%- unless page.footerExclude -%}
-      {%- include footer.html -%}
-    {%- endunless-%}
+        
       </main>
 
-    
+    {%- unless page.footerExclude -%}
+      {%- include footer.html -%}
+    {%- endunless-%}
+    </div>
   </body>
 
 </html>
