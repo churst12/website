@@ -21,7 +21,17 @@
   border-top: 3px solid black;
   padding-bottom: 0;
   margin-bottom: 0;
+  
+}
+
+.mx-unit {
   margin-left: $spacing-unit / 2;
+  margin-right: $spacing-unit / 2 ;
+}
+.mx-unit-l {
+  margin-left: $spacing-unit / 2;
+}
+.mx-unit-r {
   margin-right: $spacing-unit / 2 ;
 }
 
