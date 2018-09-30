@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+![profile](/assets/prof-pic.png)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+My name is Collin Hurst and I'm a Computer Science Major at UCSC. I like to build and work in the Computer Science industry because of the challenges it presents and the problems that I am able to solve for people. My ultimate goal is to provide products and solutions that help people and the environment as a whole. 
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Outside of Computer Science I'm a climber, foodie, drawer, sports enthusiast, and much more. Check out my social media linked in the footer to check out what I'm doing/have done. 
 
-
-[jekyll-organization]: https://github.com/jekyll
+Thanks for visiting my Site!
