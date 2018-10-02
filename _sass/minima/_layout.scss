@@ -251,6 +251,16 @@
   text-align: right;
   color: black;
 }
+.post-stack {
+  @inculde relative-font-size(1.5);
+  text-align:right;
+  color: grey;
+}
+.post-description {
+  @inculde relative-font-size(1);
+  text-align:left;
+  color: black;
+}
 
 .post-link {
   display: block;
