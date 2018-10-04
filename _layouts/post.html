@@ -19,9 +19,12 @@ layout: default
     {{ content }}
   </div>
 
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
-
+<!-- just comments -->
+  <div
+class="just-comments"
+data-apikey="f24c6004-538a-48d4-ae07-82a57b5e5ae8">
+</div>
+<script async src="https://just-comments.com/w.js"></script>
+<!-- end justcomments -->
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>
